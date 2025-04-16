@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Portfolio - Querique Kruger</title>
+  <script src="portfolio.js"></script>
+  <link rel="stylesheet" href="portfolio.css" />
+</head>
+<body>
+  <!-- Navigation Header -->
+  <header class="header">
+    <nav class="nav">
+      <div class="logo">
+        <a href="index.html">Querique Kruger</a>
+      </div>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="portfolio.html">Portfolio</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+      <button id="darkModeToggle" class="dark-toggle">🌙</button>
+    </nav>
+  </header>
+
+  <!-- Main Portfolio Section -->
+  <main class="main-content">
+    <section class="portfolio-section">
+      <h1>My Portfolio</h1>
+      <div class="gallery">
+        <!-- Image Gallery Items -->
+        <div class="gallery-item"><img src="IMG-20250415-WA0023.jpg" alt="Modeling Photo 1" /></div>
+        <div class="gallery-item"><img src="IMG-20250415-WA0024.jpg" alt="Modeling Photo 2" /></div>
+        <div class="gallery-item"><img src="IMG-20250415-WA0025.jpg" alt="Modeling Photo 3" /></div>
+        <div class="gallery-item"><img src="IMG-20250415-WA0026.jpg" alt="Modeling Photo 4" /></div>
+        <div class="gallery-item"><img src="IMG-20250415-WA0027.jpg" alt="Modeling Photo 5" /></div>
+        <div class="gallery-item"><img src="IMG-20250415-WA0028.jpg" alt="Modeling Photo 6" /></div>
+        <div class="gallery-item"><img src="IMG-20250415-WA0029.jpg" alt="Modeling Photo 7" /></div>
+        <div class="gallery-item"><img src="IMG-20250415-WA0030.jpg" alt="Modeling Photo 8" /></div>
+        <div class="gallery-item"><img src="IMG-20250415-WA0031.jpg" alt="Modeling Photo 9" /></div>
+        <div class="gallery-item"><img src="IMG-20250415-WA0032.jpg" alt="Modeling Photo 10" /></div>
+        <div class="gallery-item"><img src="IMG-20250415-WA0033.jpg" alt="Modeling Photo 11" /></div>
+        <div class="gallery-item"><img src="IMG-20250415-WA0034.jpg" alt="Modeling Photo 12" /></div>
+
+        <!-- Video Gallery Item -->
+        <div class="gallery-item">
+          <video controls>
+            <source src="video.mp4" type="video/mp4" />
+            Your browser does not support the video tag.
+          </video>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Fullscreen Lightbox -->
+  <div class="lightbox" id="lightbox">
+    <span class="close-btn" onclick="closeLightbox()">✖</span>
+    <div id="lightbox-content"></div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <p>&copy; 2025 Querique Kruger. All rights reserved.</p>
+  </footer>
+</body>
+</html>
+

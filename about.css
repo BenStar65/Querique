@@ -1,0 +1,122 @@
+/* Reset basic styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Body Styles */
+  body {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    color: #333;
+    line-height: 1.6;
+    background-color: #f7f7f7;
+    min-height: 100vh;
+  }
+  
+  /* Navigation Header (shared styling similar to homepage) */
+  .header {
+    width: 100%;
+    padding: 20px 40px;
+    background-color: rgba(0, 0, 0, 0.7);
+    position: sticky;
+    top: 0;
+    z-index: 100;
+  }
+  .nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .logo a {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #fff;
+    text-decoration: none;
+  }
+  .nav-links {
+    list-style: none;
+    display: flex;
+  }
+  .nav-links li {
+    margin-left: 20px;
+  }
+  .nav-links li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1rem;
+    transition: color 0.3s ease;
+  }
+  .nav-links li a:hover {
+    color: #f0a500;
+  }
+  
+  /* Main Content Container */
+  .main-content {
+    display: flex;
+    justify-content: center;
+    padding: 40px 20px;
+  }
+  
+  /* About Section Styling */
+  .about-section {
+    background: #fff;
+    padding: 40px;
+    border-radius: 10px;
+    max-width: 800px;
+    width: 100%;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  .about-section h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #333;
+  }
+  .about-section .bio p {
+    font-size: 1.1rem;
+    margin-bottom: 20px;
+    color: #555;
+    text-align: justify;
+  }
+  .achievements h2 {
+    font-size: 1.8rem;
+    margin-bottom: 15px;
+    color: #333;
+  }
+  .achievements ul {
+    list-style-type: disc;
+    margin-left: 20px;
+    margin-bottom: 30px;
+    color: #555;
+  }
+  .achievements ul li {
+    margin-bottom: 10px;
+    font-size: 1.1rem;
+  }
+  
+  /* CV Download Button */
+  .cv-download {
+    text-align: center;
+  }
+  .cv-btn {
+    background-color: #f0a500;
+    color: #fff;
+    padding: 15px 30px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 25px;
+    transition: background-color 0.3s ease;
+  }
+  .cv-btn:hover {
+    background-color: #d18e00;
+  }
+  
+  /* Footer styling */
+  .footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #222;
+    color: #fff;
+  }
+  
