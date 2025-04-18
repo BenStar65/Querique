@@ -148,13 +148,42 @@
     transition: all 0.4s ease;
   }
   
-  .dark-mode {
-    background-color: #111;
-    color: #eee;
+  /* Mobile Responsive Fix */
+@media (max-width: 768px) {
+  .nav {
+    flex-direction: column;
+    align-items: center;
   }
-  
-  .dark-mode .welcome-section {
-    background: rgba(0, 0, 0, 0.7);
-    color: #fff;
+
+  .nav-links {
+    flex-direction: column;
+    margin-top: 10px;
   }
-  
+
+  .nav-links li {
+    margin: 10px 0; /* add space between links vertically */
+  }
+
+  .header {
+    position: relative; /* no longer absolute on mobile */
+    padding: 10px 20px;
+  }
+
+  .main-content {
+    padding-top: 100px; /* push content down under nav */
+    flex-direction: column;
+  }
+
+  .welcome-section {
+    padding: 20px 10px;
+  }
+
+  .profile-photo img {
+    width: 150px;
+    height: 150px;
+  }
+
+  .welcome-text h1 {
+    font-size: 2rem;
+  }
+}
